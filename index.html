@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prashad Automotive Service | Mobile Mechanic — Queens, NY</title>
+<meta name="description" content="Prashad Automotive Service — mobile mechanic serving Queens, NY. Oil changes, brakes & suspension, computer diagnostics. We come to you, or you come to us." />
+<link rel="icon" href="images/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <a href="tel:+16462108453" class="topbar__link">📞 (646) 210-8453 — Call for a Quote</a>
+  <a href="mailto:dprashad17@gmail.com" class="topbar__link topbar__email">dprashad17@gmail.com</a>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="Prashad Automotive Service logo" class="brand__logo" />
+      <span class="brand__text">PRASHAD<span class="brand__accent">AUTOMOTIVE SERVICE</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="tel:+16462108453" class="btn btn--call header-cta">Call Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+  <nav class="nav nav--mobile" id="mobileNav">
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+16462108453" class="btn btn--call">Call Now</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero__bg" style="background-image:url('images/hero.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__content">
+    <p class="eyebrow">Mobile Mechanic · Queens, NY &amp; Surrounding Areas</p>
+    <h1>Quality Repairs.<br>Honest Service.<br><span class="accent">Lasting Trust.</span></h1>
+    <p class="hero__sub">We come to you, or you come to us — full-service mobile mechanic covering oil changes, brakes &amp; suspension, and complete computer diagnostics. Straightforward flat-rate pricing, no surprises.</p>
+    <div class="hero__actions">
+      <a href="tel:+16462108453" class="btn btn--primary">📞 Call (646) 210-8453</a>
+      <a href="#services" class="btn btn--ghost">View Services</a>
+    </div>
+    <div class="hero__badges">
+      <span>✔ Mobile — We Come To You</span>
+      <span>✔ Shop Visits Welcome</span>
+      <span>✔ Flat-Rate Pricing</span>
+    </div>
+  </div>
+</section>
+
+<section class="quote-strip">
+  <div class="quote-strip__track">
+    <span>“We don't just fix cars, we earn your trust.”</span>
+    <span>“Quality is not an act, it's a habit.”</span>
+    <span>“Precision today, performance tomorrow.”</span>
+    <span>“Your car is a reflection of how much you care — we help you protect it.”</span>
+    <span>“Great service is our promise. Your satisfaction is our purpose.”</span>
+    <span>“We don't just fix cars, we earn your trust.”</span>
+    <span>“Quality is not an act, it's a habit.”</span>
+    <span>“Precision today, performance tomorrow.”</span>
+    <span>“Your car is a reflection of how much you care — we help you protect it.”</span>
+    <span>“Great service is our promise. Your satisfaction is our purpose.”</span>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">What We Do</p>
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-sub">Three ways we keep you on the road — tap any service to see the full breakdown.</p>
+
+    <div class="services-grid">
+
+      <article class="service-card">
+        <div class="service-card__head">
+          <div class="service-card__icon">🛢️</div>
+          <h3>Oil Change Service</h3>
+          <p class="service-card__price">$90 <span>flat rate / full service</span></p>
+        </div>
+        <p class="service-card__desc">Complete oil &amp; filter change, fluid top-off, and a quick visual safety check — done at your location or ours.</p>
+        <ul class="service-card__list">
+          <li>Full synthetic or conventional oil (your preference)</li>
+          <li>New oil filter</li>
+          <li>Fluid level check &amp; top-off</li>
+          <li>Quick multi-point visual inspection</li>
+        </ul>
+        <a href="tel:+16462108453" class="btn btn--outline">Book This Service</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__head">
+          <div class="service-card__icon">🔧</div>
+          <h3>Brakes, Rotors &amp; Suspension</h3>
+          <p class="service-card__price">$125 <span>/ hour flat rate</span></p>
+        </div>
+        <p class="service-card__desc">Full brake, rotor, steering &amp; suspension repair — from a simple pad swap to complete suspension rebuilds.</p>
+        <button class="accordion-toggle" data-target="panel-suspension">View Full List <span class="chev">▾</span></button>
+        <a href="tel:+16462108453" class="btn btn--outline">Book This Service</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__head">
+          <div class="service-card__icon">💻</div>
+          <h3>Computer Diagnostics</h3>
+          <p class="service-card__price">$125 <span>/ hour flat rate</span></p>
+        </div>
+        <p class="service-card__desc">Full electronic &amp; system diagnostics — check engine lights, ABS, transmission, electrical, and more, pinpointed fast.</p>
+        <button class="accordion-toggle" data-target="panel-diagnostics">View Full List <span class="chev">▾</span></button>
+        <a href="tel:+16462108453" class="btn btn--outline">Book This Service</a>
+      </article>
+
+    </div>
+
+    <div class="detail-panel" id="panel-suspension">
+      <div class="detail-panel__inner">
+        <h4>Brakes, Rotors &amp; Suspension — Full Scope</h4>
+        <div class="detail-grid">
+          <div><h5>Springs &amp; Ride Components</h5><ul><li>Coil springs</li><li>Leaf springs</li><li>Torsion bars</li><li>Air springs (air bags)</li><li>Dampers / shock absorbers</li><li>Struts (MacPherson) &amp; coilover assemblies</li><li>Strut mounts &amp; bearings</li><li>Shock mounts</li></ul></div>
+          <div><h5>Control Arms &amp; Joints</h5><ul><li>Upper &amp; lower control arms</li><li>Control arm bushings &amp; ball joints</li><li>Upper &amp; lower ball joints</li></ul></div>
+          <div><h5>Steering Knuckle Components</h5><ul><li>Steering knuckle</li><li>Spindle</li><li>Wheel hub &amp; wheel bearing</li></ul></div>
+          <div><h5>Stabilizer / Sway Bar System</h5><ul><li>Sway bar (stabilizer bar)</li><li>Sway bar end links</li><li>Sway bar bushings &amp; brackets</li></ul></div>
+          <div><h5>Suspension Links</h5><ul><li>Trailing arms &amp; lateral links</li><li>Radius arms &amp; toe links</li><li>Camber links</li><li>Track bar (Panhard rod)</li><li>Watt's linkage</li></ul></div>
+          <div><h5>Rear Suspension</h5><ul><li>Rear axle &amp; axle housing</li><li>Independent rear suspension arms</li><li>Differential mounts</li><li>Rear subframe</li></ul></div>
+          <div><h5>Front Suspension</h5><ul><li>Front subframe</li><li>Crossmember</li><li>Engine cradle</li></ul></div>
+          <div><h5>Bushings &amp; Mounts</h5><ul><li>Subframe &amp; differential bushings</li><li>Spring isolators</li><li>Suspension &amp; engine cradle bushings</li></ul></div>
+          <div><h5>Air Suspension (if equipped)</h5><ul><li>Air compressor &amp; air springs</li><li>Air lines &amp; valve block</li><li>Ride height sensors &amp; air reservoir</li><li>Electronic suspension control module</li></ul></div>
+          <div><h5>Electronic Suspension</h5><ul><li>Adaptive shocks / active dampers</li><li>Suspension control module</li><li>Ride height sensors &amp; accelerometers</li></ul></div>
+          <div><h5>Hardware &amp; Alignment</h5><ul><li>Suspension &amp; camber bolts</li><li>Alignment shims, castle nuts, cotter pins, washers</li><li>Mounting brackets</li><li>Camber, caster, toe, thrust angle, SAI</li></ul></div>
+          <div><h5>Steering</h5><ul><li>Tie rods (inner &amp; outer)</li><li>Rack and pinion / steering gear</li><li>Idler arm, pitman arm, center/drag link (older vehicles)</li></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-panel" id="panel-diagnostics">
+      <div class="detail-panel__inner">
+        <h4>Computer Diagnostics — Full Scope</h4>
+        <div class="detail-grid">
+          <div><h5>Module &amp; System Scans</h5><ul><li>Check Engine Light (CEL)</li><li>ABS system</li><li>Airbag (SRS)</li><li>Transmission Control Module (TCM)</li><li>Engine Control Module (ECM/PCM)</li><li>Body Control Module (BCM)</li><li>TPMS</li><li>Hybrid / EV system diagnostics</li></ul></div>
+          <div><h5>Engine Diagnostics</h5><ul><li>Misfires, rough idle, no-start, hard starting</li><li>Loss of power, overheating</li><li>Oil &amp; coolant leaks</li><li>Compression &amp; cylinder leak-down test</li><li>Fuel pressure &amp; vacuum leak testing</li><li>Timing system inspection</li></ul></div>
+          <div><h5>Electrical Diagnostics</h5><ul><li>Battery, alternator &amp; starter testing</li><li>Charging system &amp; parasitic drain</li><li>Wiring, fuse &amp; relay faults</li><li>Ground circuits &amp; sensors</li><li>Module communication (CAN bus)</li></ul></div>
+          <div><h5>Transmission Diagnostics</h5><ul><li>Slipping, delayed / harsh shifting</li><li>Fluid inspection</li><li>Torque converter issues</li><li>Control module faults</li></ul></div>
+          <div><h5>Brake Diagnostics</h5><ul><li>Pad wear &amp; rotor inspection</li><li>Fluid condition &amp; ABS sensors</li><li>Caliper, master cylinder &amp; booster testing</li></ul></div>
+          <div><h5>Suspension &amp; Steering</h5><ul><li>Ball joints, control arms, bushings</li><li>Shocks, struts, wheel bearings</li><li>Tie rods, sway bar links</li><li>Steering rack &amp; power steering</li><li>Alignment issues</li></ul></div>
+          <div><h5>HVAC &amp; Cooling</h5><ul><li>A/C performance &amp; refrigerant leaks</li><li>Heater, blower motor, blend door actuators</li><li>Radiator, water pump, thermostat</li><li>Cooling fan &amp; pressure testing</li><li>Head gasket diagnosis</li></ul></div>
+          <div><h5>Fuel, Exhaust &amp; Emissions</h5><ul><li>Fuel pump, injectors, pressure regulator</li><li>Fuel filter &amp; EVAP leaks</li><li>O2 sensors &amp; catalytic converter</li><li>EGR system &amp; exhaust leaks</li></ul></div>
+          <div><h5>Drivetrain &amp; Tires</h5><ul><li>CV axles, driveshaft, U-joints</li><li>Differential &amp; transfer case</li><li>Tire wear, balancing &amp; TPMS</li></ul></div>
+          <div><h5>Safety &amp; Preventive</h5><ul><li>Airbag, seatbelt pretensioners</li><li>Parking sensors, backup camera</li><li>Blind-spot, lane assist, adaptive cruise</li><li>Pre-purchase &amp; multi-point inspections</li><li>Fluid &amp; battery health checks</li></ul></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section--alt" id="pricing">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Simple, Honest Pricing</p>
+    <h2 class="section-title">Flat-Rate Packages</h2>
+    <p class="section-sub">No hidden fees, no upsells — just clear pricing before we start.</p>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Oil Change</h3>
+        <p class="price-card__amount">$90</p>
+        <p class="price-card__unit">Full Service Flat Rate</p>
+        <p class="price-card__note">Oil, filter, fluid top-off &amp; visual check included.</p>
+      </div>
+      <div class="price-card price-card--featured">
+        <span class="price-card__tag">Most Requested</span>
+        <h3>Brakes &amp; Suspension</h3>
+        <p class="price-card__amount">$125<span>/hr</span></p>
+        <p class="price-card__unit">Flat Hourly Rate</p>
+        <p class="price-card__note">Covers full suspension, steering &amp; brake system repair.</p>
+      </div>
+      <div class="price-card">
+        <h3>Computer Diagnostics</h3>
+        <p class="price-card__amount">$125<span>/hr</span></p>
+        <p class="price-card__unit">Flat Hourly Rate</p>
+        <p class="price-card__note">Full system scans &amp; electrical / mechanical diagnostics.</p>
+      </div>
+    </div>
+    <p class="pricing-footnote">Every job starts with a phone quote — call and describe the issue, and you'll know the cost before any work begins.</p>
+    <a href="tel:+16462108453" class="btn btn--primary pricing-cta">📞 Call for a Free Quote</a>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">The Shop</p>
+    <h2 class="section-title">Recent Work</h2>
+    <div class="gallery-grid">
+      <img src="images/gallery-1.jpg" alt="Vehicle on lift at Prashad Automotive Service" loading="lazy" />
+      <img src="images/gallery-4.jpg" alt="BMW on lift at Prashad Automotive Service" loading="lazy" />
+      <img src="images/gallery-2.jpg" alt="SUV suspension work in progress" loading="lazy" />
+      <img src="images/gallery-3.jpg" alt="Mustang undergoing service" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<section class="section section--cta">
+  <div class="container cta-inner">
+    <h2>Profession. Pride. Performance.</h2>
+    <p>Your car is a reflection of how much you care — we help you protect it. Mobile or shop visits, honest pricing, and work you can trust.</p>
+    <a href="tel:+16462108453" class="btn btn--primary">📞 Call (646) 210-8453</a>
+  </div>
+</section>
+
+<section class="section section--alt" id="contact">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Get In Touch</p>
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-info__item">
+          <span class="contact-info__label">Owner</span>
+          <span>Dinesh Prashad</span>
+        </div>
+        <div class="contact-info__item">
+          <span class="contact-info__label">Phone</span>
+          <a href="tel:+16462108453">(646) 210-8453</a>
+        </div>
+        <div class="contact-info__item">
+          <span class="contact-info__label">Email</span>
+          <a href="mailto:dprashad17@gmail.com">dprashad17@gmail.com</a>
+        </div>
+        <div class="contact-info__item">
+          <span class="contact-info__label">Location</span>
+          <span>11134 Sutphin Blvd, Queens, NY 11434</span>
+        </div>
+        <div class="contact-info__item">
+          <span class="contact-info__label">How It Works</span>
+          <span>Mobile mechanic — we travel to your location, or you're welcome to bring your vehicle to us.</span>
+        </div>
+        <a href="tel:+16462108453" class="btn btn--primary">📞 Call Now For a Quote</a>
+      </div>
+      <div class="contact-map">
+        <iframe
+          title="Prashad Automotive Service location"
+          src="https://www.google.com/maps?q=11134+Sutphin+Blvd,+Queens,+NY+11434&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Prashad Automotive Service logo" />
+      <div>
+        <p class="footer-brand__name">Prashad Automotive Service</p>
+        <p class="footer-brand__tag">Quality Repairs. Honest Service. Lasting Trust.</p>
+      </div>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Prashad Automotive Service. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="tel:+16462108453" class="mobile-call-fab" aria-label="Call Prashad Automotive Service">📞</a>
+
+<script src="script.js"></script>
+</body>
+</html>
